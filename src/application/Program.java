@@ -8,7 +8,7 @@ public class Program {
 
     public static void main(final String[] args) {
 
-        final List<Integer> list = Arrays.asList(3,4,5,10,7);
+        List<Integer> list = Arrays.asList(3,4,5,10,7);
         
         //passa a lista para stream
         //Stream<Integer> st1 = list.stream();
